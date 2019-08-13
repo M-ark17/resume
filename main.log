@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  13 AUG 2019 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  13 AUG 2019 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -287,24 +287,24 @@ Package csquotes Info: ... none found.
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 65.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 65.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    ... okay on input line 65.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -405,33 +405,33 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Overfull \hbox (0.30946pt too wide) in paragraph at lines 75--76
+Overfull \hbox (0.30946pt too wide) in paragraph at lines 74--75
 [][][][][][][] 
  []
 
 
-Overfull \hbox (0.30946pt too wide) in paragraph at lines 84--86
+Overfull \hbox (0.30946pt too wide) in paragraph at lines 83--85
 [][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 86.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
 
-Overfull \hbox (1.10904pt too wide) in paragraph at lines 130--132
+Overfull \hbox (1.10904pt too wide) in paragraph at lines 129--131
   [][][][][][] 
  []
 
 
-Overfull \hbox (0.30946pt too wide) in paragraph at lines 163--165
+Overfull \hbox (0.30946pt too wide) in paragraph at lines 162--164
 [][][][][][][]
  []
 
 
-Overfull \hbox (6.43227pt too wide) in paragraph at lines 175--176
+Overfull \hbox (6.43227pt too wide) in paragraph at lines 174--175
 []\OT1/cmr/m/n/10 Implemented chan-nel aware schedul-ing schemes such as Max-i-
 mum Through-put, Pro-por-tional Fair-ness, Through-
  []
@@ -439,50 +439,50 @@ mum Through-put, Pro-por-tional Fair-ness, Through-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (1.16309pt too wide) in paragraph at lines 242--244
+Overfull \hbox (1.16309pt too wide) in paragraph at lines 241--243
  [][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 247.
+LaTeX Font Info:    Try loading font information for U+msa on input line 246.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 247.
+LaTeX Font Info:    Try loading font information for U+msb on input line 246.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 247.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 246.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (0.30946pt too wide) in paragraph at lines 257--265
+Overfull \hbox (0.30946pt too wide) in paragraph at lines 256--264
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--265
+Underfull \hbox (badness 10000) in paragraph at lines 256--264
 
  []
 
 
-Overfull \hbox (0.30946pt too wide) in paragraph at lines 269--270
+Overfull \hbox (0.30946pt too wide) in paragraph at lines 268--269
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--276
+Underfull \hbox (badness 10000) in paragraph at lines 272--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--286
+Underfull \hbox (badness 10000) in paragraph at lines 282--285
 
  []
 
 
-Overfull \hbox (0.30946pt too wide) in paragraph at lines 305--307
+Overfull \hbox (0.30946pt too wide) in paragraph at lines 304--306
 [][][][][][][]
  []
 
@@ -490,7 +490,7 @@ Overfull \hbox (0.30946pt too wide) in paragraph at lines 305--307
 Here is how much of TeX's memory you used:
  5373 strings out of 492982
  72361 string characters out of 6134895
- 156985 words of memory out of 5000000
+ 157985 words of memory out of 5000000
  8837 multiletter control sequences out of 15000+600000
  9877 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -502,7 +502,7 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/font
 s/type1/fkr/tipa/tipabx10.pfb>
-Output written on main.pdf (2 pages, 94981 bytes).
+Output written on main.pdf (2 pages, 94918 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  27 compressed objects within 1 object stream
