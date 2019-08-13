@@ -1,0 +1,218 @@
+\documentclass[10pt]{article}
+
+%-------------------------------------------------------------------------
+%\usepackage{fullpage}
+\usepackage{multicol}
+\usepackage{amssymb}
+\usepackage[a4paper]{geometry}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{bm}
+\usepackage{array}
+\usepackage{amsmath,latexsym} 
+\usepackage{csquotes}
+\usepackage{verbatim}
+\usepackage{ tipa }
+\usepackage{enumitem}
+%\usepackage[autostyle]{csquotes}
+
+\usepackage[pdftex]{graphicx}
+\pagestyle{empty}
+
+\definecolor{bl}{RGB}{170,216,230}  %final
+%\definecolor{bl}{RGB}{166,226,230}  %final
+\definecolor{mygray}{gray}{0.44}
+
+
+\newcommand{\hilight}[1]{\colorbox{light-gray}{#1}}
+\geometry{left=0.65in, right=0.57in, top=0.70in, bottom=0.5in}
+
+%-------------------------------------------------------------------------
+%font san serif family
+%\upshape
+%\mdseries
+\fontfamily{pcr}  % ld
+%%\fontfamily{SansSerif}
+
+%-------------------------------------------------------------------------
+\setlength{\parindent}{-2mm}
+\usepackage{enumitem}
+\newlist{myitemize}{itemize}{2}
+\setlist[myitemize,1]{label=$\bullet$,leftmargin=8mm,topsep=2mm,itemsep=1.1mm,itemindent=0mm,parsep=-0.5mm}
+\setlist[myitemize,2]{label=$-$,leftmargin=9mm,topsep=1mm,itemsep=1mm,itemindent=0mm,parsep=-1mm}
+\newcommand\hs{1.3mm}		%horizontal space
+%-------------------------------------------------------------------------
+\setlength{\tabcolsep}{5pt}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+%for horizontal lines
+\usepackage[pdftex]{graphicx}
+\newcommand{\HRule}{\rule{\linewidth}{0.2mm}}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+%spaces in itemize
+%\usepackage{enumitem}
+%-------------------------------------------------------------------------
+
+
+\begin{document}
+
+%--------------------------------------------------------------------------
+
+%\vspace*{137pt}    % EARLIER   *********************
+\vspace*{115pt}    % 
+
+%-----------------------------------------------------------------------
+\colorbox{bl}{\makebox[\textwidth][c]{\centering \bfseries \color{black} MAJOR PROJECT \& SEMINAR}}% \\
+\vspace{-0.1cm}
+\begin{itemize}[leftmargin=0.4cm]
+
+
+\item \textbf{An efficient channel estimation scheme in TDD MIMO Systems}\\
+Guide: \textit{Prof. Kumar Appaiah, Electrical Engineering, IIT Bombay}\hfill{(\textit{May’19 - Present})}\\\vspace{-0.68cm}
+	\begin{itemize}[leftmargin=0.5cm]
+    \item Implemented Multi Cell \textbf{MMSE based MIMO }precoding in mulitiple antennas systems which used
+non-orthogonal pilots for channel estimation.\vspace{-0.1cm}
+    \item Implemented \textbf{covariance} based channel estimation which uses \text{Bayesian} Estimation and analysed its performance based on rate vs antennas.Implemented \textbf{Kalman} filter to estimate channel in \textbf{MIMO} system.\vspace{-0.1cm}
+    \item  Design of \textbf{efficient precoding }scheme using channel state information available using \textbf{feedback} and channel
+tracking which reduces the effect of \textbf{pilot contamination} on channel estimation.\vspace{-0.1cm}
+
+	\end{itemize}
+
+\vspace{-0.25cm}
+
+\item \textbf{Inter cell interference in Multi Cell MIMO systems 
+} \textbf{[M.Tech Seminar]}
+\hfill{(\textit{Jul'18 - Nov'18})}\\
+Guide: \textit{Prof. Kumar Appaiah, Electrical Engineering, IIT Bombay}\\\vspace{-0.68cm}
+	\begin{itemize}
+	\item Studied the structure and working of \textbf{MIMO systems} and impact on BER on using Non-orthogonal pilots.\vspace{-0.1cm}
+	\item Simulated \textbf{BER vs SNR} for MIMO systems in Interference and Interference free scenarios.\vspace{-0.1cm}
+
+	\end{itemize}\
+	\vspace{-0.6cm}	
+\end{itemize}
+
+%------------------------------------------------------------
+\colorbox{bl}{\makebox[\textwidth][c]{\bfseries \color{black}  WORK EXPERIENCE \& NON ACADEMIC PROJECT}}
+\vspace{-0.6cm}
+\begin{itemize}[leftmargin=0.4cm]
+	\item \textbf{Interview Management Software \textpipe  \hspace{0.05cm} Electrical Engineering Department, IITB} \hfill{(\textit{Feb'18 - present})}\\
+\vspace{-0.1cm}
+\hspace{-0.09cm}Lead role in building online system that made automatic coordination across interview committees. This system was successfully used in the last \textbf{3} admission sessions.
+
+\end{itemize}
+	\vspace{-0.35cm}
+
+\begin{itemize}[leftmargin=0.4cm]
+	\item \textbf{Systems Engineer \textpipe  \hspace{0.05cm} Infosys Technology Ltd} \hfill{(\textit{Dec'15 - Jul'17})}\\
+		 Work included writing SQL queries to fetch data to the module and to develop features using Oracle ERM tool.
+\end{itemize}
+\vspace{-0.1cm}
+%----------------------------------------------------------------------
+
+\colorbox{bl}{\makebox[\textwidth][c]{\bfseries \color{black} KEY COURSE PROJECTS}}
+\vspace{-0.55cm}
+\begin{itemize}[leftmargin=0.4cm]
+
+\item \textbf{Scheduling in 4G LTE }
+\hfill{(\textit{Jan'18 - Apr'18})}\\
+Guide: \textit{Prof. Abhay Karandikar, Electrical Engineering, IIT Bombay}\\\vspace{-0.7cm}
+
+\begin{itemize}
+	\item Implemented \textbf{channel aware scheduling} schemes such as \textbf{MT, PF, TTA}. \vspace{-0.1cm}
+	\item Compared all schemes based on \textbf{ cell throughput, average user throughput, Jain fairness index}.\vspace{-0.1cm}
+\end{itemize}
+\vspace{-0.2cm}
+	
+	
+\item \textbf{Simulation of Cellular System in OCTAVE}
+\hfill{(\textit{Jan'18 - Apr'18})}\\
+Guide: \textit{Prof. Abhay Karandikar, Electrical Engineering, IIT Bombay}\\\vspace{-0.7cm}
+	\begin{itemize}
+	\item Computed \textbf{SIR}, \textbf{blocking probability} for different cluster sizes and \textbf{sectoring}.\vspace{-0.1cm}
+	\item Analyzed \textbf{handover} process and \textbf{ping-pong} rate for different user mobilities and hysteresis values.\vspace{-0.1cm}
+	\item Analyzed BER performance for \textbf{space} and \textbf{time diversity} in a slow flat fading Rayleigh channel.\vspace{-0.1cm}
+	\item Analyzed BER performance for a single-cell and multi-cell scenario in a \textbf{CDMA} cellular system.
+    \end{itemize}
+\end{itemize}
+	%\vspace{-0.25cm}	
+
+\colorbox{bl}{\makebox[\textwidth][c]{\bfseries \color{black} OTHER COURSE PROJECTS}}
+\vspace{-0.55cm}
+
+\begin{itemize}[leftmargin=0.4cm]
+\vspace{-0.05cm}
+    	
+	\item Spam URL classification using Machine Learning
+ \textpipe \hspace{0.2cm} \textit{Course: Network Security}\hspace{2.7cm}(\textit{Jan'19 - Apr'19})\vspace{-0.25cm}
+ 
+     \item Image Dehazing using color attenuation prior and dark channel prior \textpipe \hspace{-0.1cm} \textit{Course: Image Processing} \hfill{(\textit{Jul’18 - Nov’18 })}\vspace{-0.25cm}
+	
+	\item Basic Image Editor tool in Python
+  \textpipe \hspace{0.2cm} \textit{Course: Image Processing}\hspace{5.1cm}(\textit{Jul'18 - Nov'18})\vspace{-0.25cm}
+	\item Wavelet based leaders and P leaders in Multi Fractal Analysis \textpipe \hspace{0.2cm}  \textit{Course: Wavelets}\hspace{1.95cm}(\textit{Jul'18 - Nov'18})\vspace{-0.25cm}
+	
+\end{itemize}
+
+\vspace{0.05cm}
+
+%----------------------------------------------------------------------------------
+\colorbox{bl}{\makebox[\textwidth][c]{\bfseries \color{black} TECHNICAL SKILLS}}\\
+\begin{tabular}{m{1in}m{0.20in}m{4.5in}}
+	\\[-3mm]
+	\hspace{\hs} \textbf{\textbf{Languages}} &: & {{C, C++, Python, Bash scripting, HTML, PHP}} \\
+	\\[-3.5mm]
+	\hspace{\hs} \textbf{\textbf{Tools}} &: & {Matlab/Octave, \LaTeX, Git.}\\
+	\\[-4mm]
+\end{tabular}\\
+
+%-------------------------------------------------------------------------------------------
+\colorbox{bl}{\makebox[\textwidth][c]{\bfseries \color{black} POSITIONS OF RESPONSIBILITY}}
+
+\begin{itemize}[leftmargin=0.4cm]
+\vspace{-0.2cm}
+
+\item \textbf {Research Assistant:} System Administrator Laboratory, IIT Bombay \hfill{(\textit{Jul'17 - Present})}\\[-0.7cm]
+        \begin{itemize}
+	\item Building and maintaining website of EE department, maintaining TA feedback and allotment portals\vspace{-0.1cm}
+	%\item Provide mail service, storage space, computing facilities and network facilities to department.\vspace{-0.1cm}
+	\item Designed online portals and coordinated for the \textbf{automation} of the activities in department admission process
+	\end{itemize}
+	\vspace{-0.3cm}
+
+
+\item \textbf{Web Nominee:} Post Graduate Academic Council, IIT Bombay \hfill{(\textit{Jul'18 - Jun'19})}\\[-0.65cm]
+\begin{itemize}
+\item Designed new web portal for PGAC which is used by all the Post Graduate students of the institute. \vspace{-0.25cm}	
+
+\end{itemize}
+			
+\item \textbf{Mess Secretary:
+ }  Hostel-1, IIT Bombay   \hfill{(\textit{Sep'17 - Mar'18})}\\[-0.65cm]
+ \begin{itemize}
+\item Managed all mess activities for a mess which catered for 250+ students with an budget of ~8,00,000/- per month. \vspace{-0.25cm}	
+
+\end{itemize}
+
+\vspace{-0.05cm}
+\end{itemize}
+%\vspace{-0.2cm}
+%--------------------------------------------------------------------------------------
+
+\colorbox{bl}{\makebox[\textwidth][c]{\bfseries \vspace{2cm} \color{black} CO \& EXTRA CURRICULAR ACTIVITIES}}
+\vspace{-0.58cm}
+\begin{itemize}[leftmargin=0.4cm]
+    \item { Completed \textbf{Machine Learning} course by \textbf{Andrew Ng} from Coursera. }\hfill{(\textit{2019})}\vspace{-0.2cm}
+    	\item {Conducted a introductory session on \textbf{Linux, vim and Git} as a part of Bridge Course. }\hfill{(\textit{2019})}\vspace{-0.2cm}
+    \item {Completed a 100 hrs course on \textbf{Chinese} language conducted by International Relations office IIT Bombay.}\hfill{(\textit{2019})}\vspace{-0.2cm}
+    \item {Completed Basic course in \textbf{French} Language from Vivekananda Institute of Languages, Hyderabad.}\hfill{(\textit{2013})}\vspace{-0.2cm}
+\end{itemize}
+
+%-------------------------------------------------------------------------------------------------
+
+
+
+\end{document}

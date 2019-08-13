@@ -1,0 +1,339 @@
+\documentclass[10pt]{article}
+
+%-------------------------------------------------------------------------
+%\usepackage{fullpage}
+\usepackage{multicol}
+\usepackage{amssymb}
+\usepackage[a4paper]{geometry}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{bm}
+\usepackage{array}
+\usepackage{amsmath,latexsym} 
+\usepackage{csquotes}
+\usepackage{verbatim}
+\usepackage{ tipa }
+\usepackage{enumitem}
+%\usepackage[autostyle]{csquotes}
+
+\usepackage[pdftex]{graphicx}
+\pagestyle{empty}
+%\definecolor{bl}{RGB}{173,216,230} %ankit   123, same %pratik
+%\definecolor{bl}{rgb}{0.2, 0.9, 0.9} %light green
+%\definecolor{bl}{RGB}{133,220,230} % pratik ********
+%\definecolor{bl}{RGB}{173,210,240}  % new
+
+
+\definecolor{bl}{RGB}{173,216,230}  %final
+%\definecolor{bl}{RGB}{166,226,235}  %pratik
+\definecolor{mygray}{gray}{0.44}
+
+
+\newcommand{\hilight}[1]{\colorbox{light-gray}{#1}}
+\geometry{left=0.65in, right=0.57in, top=0.70in, bottom=0.5in}
+
+%-------------------------------------------------------------------------
+%font san serif family
+%\upshape
+%\mdseries
+\fontfamily{pcr}  % ld
+%%\fontfamily{SansSerif}
+
+%-------------------------------------------------------------------------
+\setlength{\parindent}{-2mm}
+\usepackage{enumitem}
+\newlist{myitemize}{itemize}{2}
+\setlist[myitemize,1]{label=$\bullet$,leftmargin=8mm,topsep=2mm,itemsep=1.1mm,itemindent=0mm,parsep=-0.5mm}
+\setlist[myitemize,2]{label=$-$,leftmargin=9mm,topsep=1mm,itemsep=1mm,itemindent=0mm,parsep=-1mm}
+\newcommand\hs{1.3mm}		%horizontal space
+%-------------------------------------------------------------------------
+\setlength{\tabcolsep}{5pt}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+%for horizontal lines
+\usepackage[pdftex]{graphicx}
+\newcommand{\HRule}{\rule{\linewidth}{0.2mm}}
+%-------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------
+%spaces in itemize
+%\usepackage{enumitem}
+%-------------------------------------------------------------------------
+
+
+\begin{document}
+
+%--------------------------------------------------------------------------
+
+%\vspace*{137pt}    % EARLIER   *********************
+\vspace*{151pt}    
+
+\begin{comment}
+\colorbox{bl}{\makebox[\textwidth][l]{\bfseries \color{black} ACADEMIC DETAILS}}%
+\vspace{0.2cm}
+\indent \begin{tabular}
+{ l @{\hskip 0.4in} l @{\hskip 0.7in} l @{\hskip 0.4in} l @{\hskip 0.4in} l }
+\hline
+\vspace{0.1cm}
+\textbf{Examination} & \textbf{University/Institute} & \textbf{Year} & \textbf{CPI/\%} \\
+\hline
+\vspace{0.1cm}
+Post Graduation & Indian Institute of Technology Bombay & 2019 & 8.29 \\\vspace{0.1cm}
+Graduation & Government College of Engineering, Amravati & 2014 & 8.33\\\vspace{0.1cm}
+Intermediate/+2 & Baba Nanak Jr. College, Nagpur & 2010 & 87.67\\\vspace{0.1cm}
+Metriculation & Adarsh Vidya Mandir, Nagpur & 2008 & 92.15 \\
+\hline
+\end{tabular}
+
+\vspace{0.15cm}
+\end{comment}
+
+%--------------------------------------------------------------------------
+%-----------------------------------------------------------------
+\colorbox{bl}{\makebox[\textwidth][l]{\bfseries \color{black} AREAS OF INTEREST}}
+\begin{itemize}[itemindent=-4.8mm]
+		\vspace{-0.1cm}
+	\item[] \hspace{0.01cm}Digital Signal Processing, Wireless Communication, Machine Learning
+	\vspace{-0.05cm}
+\end{itemize}
+%------------------------------------------------------------------------
+
+%-----------------------------------------------------------------------
+\colorbox{bl}{\makebox[\textwidth][l]{\bfseries \color{black} MAJOR PROJECTS}}% \\
+\vspace{-0.05cm}
+\begin{itemize}[leftmargin=0.4cm]
+\item \textbf{M.Tech Project: Generalized Frequency Division Multiplexing (GFDM) for Modern Wireless Communication Systems}
+\hfill{(\textit{May'18 - Present})} \\
+Guide: \textit{Prof. Kumar Appaiah, Electrical Engineering, IIT Bombay}\\
+\textbf{Completed work:}
+\vspace{-0.25cm}
+\begin{itemize}
+\item Implemented a \textbf{GFDM transmitter and receiver} prototype in Python, with pulse shaping \textbf{RRC filter}.\vspace{-0.1cm}
+\item Analyzed the SER performance of the system with \textbf{various receivers} and compared it with OFDM. 
+\vspace{-0.1cm}
+\item Explored the trade-off between BER performance and out-of-band emissions (OOB) for various pulse shapes and analyzed the \textbf{flexibility} of GFDM in terms of data rate and latency.\vspace{-0.1cm}
+\item Pilot based channel estimation for MIMO-GFDM, with \textbf{precoding} at the transmitter.
+\end{itemize}
+\vspace{-0.2cm}
+\textbf{Ongoing and future work:}
+\vspace{-0.2cm}
+\begin{itemize}
+\item  Design GFDM modulation matrix for optimal OOB emissions constrained on the Noise Enhancement Factor.\vspace{-0.1cm}
+\item Explore the \textbf{applications} of GFDM in M2M, high throughput communications in \textbf{5G}.
+\end{itemize}
+
+\vspace{-0.2cm}
+
+\item\textbf{B.Tech Project: PC Based Wireless Data Acquisition System}
+\hfill{(\textit{Jul'13 - Apr'14})} \\
+Guide: \textit{Prof. A. M. Shah, Electronics $\&$ Telecommunication Engineering, GCOE Amravati}\\
+\vspace{-0.68cm}
+\begin{itemize}
+	\item \textbf{Designed} a wireless data acquisition system with \textbf{I2C} and \textbf{SPI} protocol implementation. 
+	\vspace{-0.1cm}
+	\item  Acquisition of data from a set of remote sensors to a system i.e. on-board system and hyperterminal of PC, where the \textbf{analysis} of the acquired data is done continuously and in  \textbf{real-time}.\vspace{-0.1cm}
+	\item Used 433 MHz Tx-Rx module for communication between the remote terminal unit and master control unit.
+\end{itemize}
+\vspace{-0.2cm}
+
+\end{itemize}
+
+%------------------------------------------------------------
+\colorbox{bl}{\makebox[\textwidth][l]{\bfseries \color{black}  WORK EXPERIENCE}}
+\vspace{-0.55cm}
+\begin{itemize}[leftmargin=0.4cm]
+	\item \textbf{Programmer Analyst \textpipe  \hspace{0.05cm} Cognizant Technology Solutions India Private Ltd} \hfill{(\textit{Nov'14 - Jun'16})}\\
+	\vspace{-0.65cm}
+	\begin{itemize}
+	    \item \textbf{Client:} T-Systems, Germany \textpipe \textbf{ Tools Used:} CRMT Siebel, Process Availability Tool, AR-Tool.\vspace{-0.07cm}
+		\item \textbf{Roles and Responsibilities:} Test scenario analysis, created and executed test cases, performed Functional and \textbf{System Integration Testing}, logged and tracked defects till closure in Action Request Tool.\vspace{-0.1cm}
+		%\itemLogging and Tracking defects following the proper defect life cycle.
+		\item Developed an Excel-VBA based tool for generating Daily Status Report (DSR) of the executed test cases which \textbf{reduced} the \textbf{effort} time from \textbf{20 minutes} to \textbf{2 minutes}.
+	\end{itemize}
+\end{itemize}
+%----------------------------------------------------------------------
+
+\colorbox{bl}{\makebox[\textwidth][l]{\bfseries \color{black} KEY COURSE PROJECTS AND SEMINAR}}
+\vspace{-0.5cm}
+\begin{itemize}[leftmargin=0.4cm]
+
+\item \textbf{Resource Allocation and Interference Cancellation in D2D Communication}
+\hfill{(\textit{Jan'18 - Apr'18})}\\
+Guide: \textit{Prof. Abhay Karandikar, Electrical Engineering, IIT Bombay}\\
+\vspace{-0.7cm}
+	\begin{itemize}
+	\item Implemented Device to Device communication on top of the \textbf{existing LTE} network without compromising the throughput of the cellular users communicating via base stations.\vspace{-0.1cm}
+	\item Used \textbf{Carrier-by-carrier in turn} algorithm for allocating resource blocks to cell users and \textbf{Bipartite graph based allocation} technique for the D2D users.\vspace{-0.1cm}
+	%\item The technique resulted in a \textbf{significant increase} in overall system \textbf{throughput}.
+	\item Achieved a \textbf{significant increase} in overall system \textbf{throughput} using this technique.
+    \end{itemize}
+
+	\vspace{-0.25cm}
+	
+	
+\item \textbf{Simulation of Cellular System in MATLAB}
+\hfill{(\textit{Jan'18 - Apr'18})}\\
+Guide: \textit{Prof. Abhay Karandikar, Electrical Engineering, IIT Bombay}\\\vspace{-0.7cm}
+	\begin{itemize}
+	\item Computed \textbf{SIR}, \textbf{blocking probability} for different cluster sizes and \textbf{sectoring}. Analyzed \textbf{handover} process and \textbf{ping-pong} rate for different user mobilities and hysteresis values.\vspace{-0.1cm}
+	\item Analyzed BER performance for \textbf{space} and \textbf{time diversity} in a slow flat fading Rayleigh channel.\vspace{-0.1cm}
+	\item Analyzed BER performance for a single-cell and multi-cell scenario in a \textbf{CDMA} cellular system.
+    \end{itemize}
+
+	\vspace{-0.2cm}	
+	
+\newpage	
+\item \textbf{Bit-Interleaved Coded Modulation for Fading Channels
+} \textbf{[M.Tech Seminar]}
+\hfill{(\textit{Jul'17 - Nov'17})}\\
+Guide: \textit{Prof. Kumar Appaiah, Electrical Engineering, IIT Bombay}\\\vspace{-0.68cm}
+	\begin{itemize}
+	\item Studied the structure and information theoretical view of Bit-Interleaved Coded Modulation (BICM).\vspace{-0.1cm}
+	\item Simulated \textbf{Channel Capacity vs SNR} for AWGN and Rayleigh fading channels with different coding schemes i.e. Gray labelling and Set-partitioning considering the different signal sets.\vspace{-0.1cm}
+	\item Studied error-probability analysis and the \textbf{design criteria} of BICM.
+
+	\end{itemize}
+
+	\vspace{-0.2cm}
+	
+\item \textbf{Plotting and Analysis of the Spectral Data of MST Radar}
+\hfill{(\textit{Jan'18 - Apr'18})}\\
+Guide: \textit{Prof. Kushal Tuckley, Electrical Engineering, IIT Bombay}\\\vspace{-0.68cm}
+	\begin{itemize}
+	%\item The wind proiler data taken from \textbf{Indian MST Radar} at NARL, Guwahati was analyzed using the  \textbf{Doppler} spectrum of range bins with some pre-processing on the data. \vspace{-0.1cm}
+	\item Analyzed power spectral data taken from \textbf{Indian MST Radar} at NARL, Gadanki using the \textbf{Doppler spectrum} of range bins after some data pre-processing.\vspace{-0.1cm}
+	\item Obtained the \textbf{wind profile} at different altitudes by tracing the spectral peaks in the Doppler power spectra plotted for all range bins using various \textbf{Wind Profiling Algorithms}.
+	\end{itemize}
+	
+	\vspace{-0.2cm}
+	
+\item \textbf{Implementation of Adaptive filters in Python}
+\hfill{(\textit{Jan'17 - Apr'17})}\\
+Guide: \textit{Prof. Kumar Appaiah, Electrical Engineering, IIT Bombay}\\\vspace{-0.68cm}
+    \begin{itemize}
+    \item Performed noise cancellation using \textbf{Wiener filters} of different order and implemented \textbf{Least Mean Square} and \textbf{Recursive Least Square} algorithms for \textbf{adaptive linear prediction}.\vspace{-0.1cm}
+    \item Estimated a third order \textbf{auto-regressive process} with white noise using \textbf{Kalman filter}. 
+    \end{itemize}
+    \vspace{-0.2cm}
+
+\item \textbf{Flappy Bird Game AI using Reinforcement Learning}
+\hfill{(\textit{Jul'17 - Nov'17})}\\
+Guide: \textit{Prof. Ganesh Ramakrishanan, Computer Science Engineering, IIT Bombay}\\\vspace{-0.68cm}
+	\begin{itemize}
+	\item Implemented \textbf{Deep-Q learning} and \textbf{Genetic algorithms} using reinforcement learning.\vspace{-0.1cm}
+	\item Replaced \textbf{5 layer deep CNN} with \textbf{2 layer fully connected network} using feature engineered variables to reduce training time from 4 days to 2 hours on a CPU machine and achieved a \textbf{high score} of \textbf{2141}.
+	%\item Achieved a \textbf{high score} of \textbf{2141} in the game, the neural network was built using \textbf{Keras}.
+	\end{itemize}
+	\vspace{-0.2cm}	
+	
+	
+\item \textbf{Maximum Likelihood (ML) Decoder in  GNU Radio}
+\hfill{(\textit{Jan'17 - Apr'17})}\\
+Guide: \textit{Prof. Sibi Raj Pillai, Electrical Engineering, IIT Bombay}\\\vspace{-0.68cm}	
+\begin{itemize}
+		\item Designed custom blocks in GNU Radio to generate \textbf{random codebook} of given size and transmitted the codeword corresponding to the symbol through a AWGN channel.\vspace{-0.1cm}
+		\item Decoded the received signal using \textbf{minimum distance} decoder and analyzed the BER performance.
+    \end{itemize}	
+    \vspace{-0.2cm}
+
+\item \textbf{Digital Image Watermarking using Discrete Wavelet Transform}
+\hfill{(\textit{Jan'17 - Apr'17})}\\
+Guide: \textit{Prof. Vikram Gadre, Electrical Engineering, IIT Bombay}\\\vspace{-0.68cm}
+	\begin{itemize}
+	\item Embedded a watermark image into the low \textbf{frequency sub-band} of the cover image which can be deciphered only by \textbf{authentic users} using a key. The watermark insertion is done using alpha blending technique.
+	\end{itemize}
+	
+	\vspace{-0.05cm}
+
+
+\end{itemize}
+
+%----------------------------------------------------------------------------------
+\colorbox{bl}{\makebox[\textwidth][l]{\bfseries \color{black} TECHNICAL SKILLS}}\\
+\begin{tabular}{m{1in}m{0.20in}m{4.5in}}
+	\\[-3mm]
+	\hspace{\hs} \hspace{0.12cm}\textbf{\textbf{Languages}} &: & {{C, C++, Python, Bash scripting, HTML, PHP}} \\
+	\\[-3.5mm]
+	\hspace{\hs} \hspace{0.12cm}\textbf{\textbf{Tools}} &: & {Matlab, GNU Radio, \LaTeX, Git, Circuit Wizard, Keil, Proteus}\\
+	\\[-4mm]
+\end{tabular}\\
+
+%-------------------------------------------------------------------------------------------
+	\colorbox{bl}{\makebox[\textwidth][l]{\bfseries \color{black} RELEVANT COURSES}}% \\
+	\vspace{0.15cm} 
+
+	
+	\begin{tabular}{ l l l }
+		\hspace{0.55cm}\textbullet\ Digital Message Transmission &  \textbullet\ DSP and its Applications & \textbullet\ Foundations of Machine Learning\\
+		\hspace{0.55cm}\textbullet\ Wireless and Mobile Communications & \textbullet\ Adaptive Signal Processing & \textbullet\ Error Correcting Codes\\
+		\hspace{0.55cm}\textbullet\ Information Theory and Coding & \textbullet\ Statistical Signal Analysis  & \textbullet\ Radar Systems\\ 
+		
+	\end{tabular}
+	\setlength{\tabcolsep}{0.1cm}
+	
+	
+	\vspace{0.15cm}
+	
+
+%-------------------------------------------------------------------------------------------
+\colorbox{bl}{\makebox[\textwidth][l]{\bfseries \color{black} POSITIONS OF RESPONSIBILITY}}
+
+\begin{itemize}[leftmargin=0.4cm]
+\vspace{-0.1cm}
+\item \textbf {System Administrator: PC Lab, Electrical Department, IIT Bombay} 
+\hfill{(\textit{Jul'16 - Present})}\\[-0.6cm]
+    \begin{itemize}
+	\item Building and maintaining website of EE department, maintaining TA feedback and allotment portals.\vspace{-0.1cm}
+	\item Provide mail service, storage space, computing facilities and network facilities to department.\vspace{-0.1cm}
+	\item Designed online portals and coordinated for the \textbf{automation} of the activities in department admission process.
+	\end{itemize}
+	\vspace{-0.25cm}
+	
+	
+\item \textbf{Student Companion: Institute Student Companion Program, IIT Bombay}
+\hfill{(\textit{Jul'17 - Jun'18})}\\[-0.6cm]
+    \begin{itemize}
+			%\item Responsible for ensuring \textbf{smooth transition} of \textbf{7 PG entrants} into the academic curriculum. \vspace{-0.1cm}
+			%\item \textbf{Mentored} them in initial institute activities, course selection, technical and non-technical development.
+			\item \textbf{Mentored} 7 new entrants and ensured their smooth transition into the curriculum of institution.\vspace{-0.1cm}
+            \item Helped them in institute activities, course selection, technical and non-technical development.
+		\end{itemize}
+		\vspace{-0.25cm}
+	
+\item \textbf{Interview Coordinator: Institute Placement Team, IIT Bombay}
+\hfill{(\textit{Nov'16 - Dec'16})}\\[-0.6cm]
+    \begin{itemize}
+            \item Assisted in the placement of 1600 students within a team of 200 students over a period of 16 days.\vspace{-0.1cm}
+            \item Helped in conducting online and written tests and interviews of companies.
+			%\item Ensured smooth \textbf{co-ordination} between companies, placement office and students.\vspace{-0.1cm}
+			%\item Helped in conducting Interviews of companies and solved grievances of students.
+		\end{itemize}
+		\vspace{-0.25cm}	
+
+
+\item \textbf{Tutor at Abhyasika}, a student initiative of IITB to teach underprivileged children.\hfill{(\textit{Jul'18 - Present})}\vspace{-0.2cm}
+    	
+\end{itemize}
+\vspace{0.15cm}
+
+%---------------------------------------------------------------------------------
+\colorbox{bl}{\makebox[\textwidth][l]{\bfseries \color{black} CO \& EXTRA CURRICULAR ACTIVITIES}}
+\vspace{-0.5cm}
+\begin{itemize}[leftmargin=0.4cm]
+    \item {Learned \textbf{German} language (Level-0) with \textbf{95} score through GLTP conducted by Cognizant Academy. }\hfill{(\textit{2016})}\vspace{-0.2cm}
+    %\item {Participated in \textbf{Qualcomm Innovation Fellowship India} for the project proposal entitled \enquote{Cloud Assisted Base Station Coordination in Massive MIMO Cellular Systems}}.\hfill{(\textit{2018})}\vspace{-0.2cm}
+    \item \textbf{Teaching Assistant} for Signal and Systems course in Department Bridge Course Program. \hfill{(\textit{2017})}\vspace{-0.2cm}
+    \item {Won \textbf{Gold} medal in Kho-Kho in PG General Championship, IIT Bombay.}\hfill{(\textit{2017})}\vspace{-0.2cm}
+    %\item {\textbf{Tutor at Abhyasika}, a student initiative from IITB to teach underprivileged children.}\hfill{(\textit{July '18-Present})}\vspace{-0.2cm}
+    \item {Participated in \textbf{Robotics} events: Wall follower and Robowar in National level tech-fest.}\hfill{(\textit{2011-12})}\vspace{-0.2cm}
+    \item {Hobbies: Travelling, watching and playing cricket.}
+
+    
+\end{itemize}
+
+%-------------------------------------------------------------------------------------------------
+
+
+
+\end{document}
