@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  21 AUG 2019 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  21 AUG 2019 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -196,242 +196,282 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
-<proofs/mtp.pdf, id=1, page=1, 597.23125pt x 844.15375pt>
-File: proofs/mtp.pdf Graphic file (type pdf)
-<use proofs/mtp.pdf, page 1>
-Package pdftex.def Info: proofs/mtp.pdf , page1 used on input line 6.
-(pdftex.def)             Requested size: 298.61488pt x 422.07584pt.
-<proofs/mtp.pdf, id=2, page=2, 597.23125pt x 844.15375pt>
-File: proofs/mtp.pdf Graphic file (type pdf)
-<use proofs/mtp.pdf, page 2>
-Package pdftex.def Info: proofs/mtp.pdf , page2 used on input line 7.
-(pdftex.def)             Requested size: 298.61488pt x 422.07584pt.
+<proofs/ssc_memo_frm_website.pdf, id=1, page=1, 614.295pt x 794.97pt>
+File: proofs/ssc_memo_frm_website.pdf Graphic file (type pdf)
+<use proofs/ssc_memo_frm_website.pdf, page 1>
+Package pdftex.def Info: proofs/ssc_memo_frm_website.pdf , page1 used on input 
+line 6.
+(pdftex.def)             Requested size: 307.14674pt x 397.48402pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./proofs/ssc_memo_frm_webs
+ite.pdf>]
+<proofs/ssc_memo.jpg, id=16, 1397.22pt x 1782.66pt>
+File: proofs/ssc_memo.jpg Graphic file (type jpg)
+<use proofs/ssc_memo.jpg>
+Package pdftex.def Info: proofs/ssc_memo.jpg  used on input line 8.
+(pdftex.def)             Requested size: 279.43906pt x 356.52568pt.
+<proofs/certificates.pdf, id=17, page=11, 614.295pt x 845.1575pt>
+File: proofs/certificates.pdf Graphic file (type pdf)
+<use proofs/certificates.pdf, page 11>
+Package pdftex.def Info: proofs/certificates.pdf , page11 used on input line 10
+.
+(pdftex.def)             Requested size: 307.14674pt x 422.57771pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+[2 <./proofs/ssc_memo.jpg>]
+<proofs/b_tech.jpg, id=21, 1409.265pt x 2089.8075pt>
+File: proofs/b_tech.jpg Graphic file (type jpg)
+<use proofs/b_tech.jpg>
+Package pdftex.def Info: proofs/b_tech.jpg  used on input line 12.
+(pdftex.def)             Requested size: 422.78276pt x 626.9471pt.
+
+Overfull \hbox (77.78276pt too wide) in paragraph at lines 12--13
+[] 
+ []
+
+[3 <./proofs/certificates.pdf>]
+Overfull \vbox (97.84985pt too high) has occurred while \output is active []
+
+
+[4 <./proofs/b_tech.jpg>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 13.
+<proofs/mtp.pdf, id=31, page=1, 597.23125pt x 844.15375pt>
+File: proofs/mtp.pdf Graphic file (type pdf)
+<use proofs/mtp.pdf, page 1>
+Package pdftex.def Info: proofs/mtp.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 298.61488pt x 422.07584pt.
+<proofs/mtp.pdf, id=32, page=2, 597.23125pt x 844.15375pt>
+File: proofs/mtp.pdf Graphic file (type pdf)
+<use proofs/mtp.pdf, page 2>
+Package pdftex.def Info: proofs/mtp.pdf , page2 used on input line 15.
+(pdftex.def)             Requested size: 298.61488pt x 422.07584pt.
+
 Overfull \vbox (316.05443pt too high) has occurred while \output is active []
 
 
-[2 <./proofs/mtp.pdf> <./proofs/mtp.pdf
+[5 <./proofs/mtp.pdf> <./proofs/mtp.pdf
 
 pdfTeX warning: pdflatex (file ./proofs/mtp.pdf): PDF inclusion: multiple pdfs 
 with page group included in a single page
 >]
-<proofs/workex.pdf, id=44, page=1, 597.23125pt x 844.15375pt>
+<proofs/workex.pdf, id=67, page=1, 597.23125pt x 844.15375pt>
 File: proofs/workex.pdf Graphic file (type pdf)
 <use proofs/workex.pdf, page 1>
-Package pdftex.def Info: proofs/workex.pdf , page1 used on input line 9.
+Package pdftex.def Info: proofs/workex.pdf , page1 used on input line 17.
 (pdftex.def)             Requested size: 298.61488pt x 422.07584pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
-<proofs/Interview_portal.pdf, id=45, page=1, 597.23125pt x 844.15375pt>
+<proofs/Interview_portal.pdf, id=68, page=1, 597.23125pt x 844.15375pt>
 File: proofs/Interview_portal.pdf Graphic file (type pdf)
 <use proofs/Interview_portal.pdf, page 1>
 Package pdftex.def Info: proofs/Interview_portal.pdf , page1 used on input line
- 13.
+ 21.
 (pdftex.def)             Requested size: 298.61488pt x 422.07584pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-[3 <./proofs/workex.pdf>]
-<proofs/wireless_project.png, id=86, 1606.0pt x 874.26625pt>
+[6 <./proofs/workex.pdf>]
+<proofs/wireless_project.png, id=109, 1606.0pt x 874.26625pt>
 File: proofs/wireless_project.png Graphic file (type png)
 <use proofs/wireless_project.png>
-Package pdftex.def Info: proofs/wireless_project.png  used on input line 16.
+Package pdftex.def Info: proofs/wireless_project.png  used on input line 24.
 (pdftex.def)             Requested size: 401.49902pt x 218.56602pt.
 
-Overfull \hbox (56.49902pt too wide) in paragraph at lines 15--17
+Overfull \hbox (56.49902pt too wide) in paragraph at lines 23--25
 [] 
  []
 
-[4 <./proofs/Interview_portal.pdf>]
-<proofs/wireless.png, id=114, 1606.0pt x 874.26625pt>
+[7 <./proofs/Interview_portal.pdf>]
+<proofs/wireless.png, id=138, 1606.0pt x 874.26625pt>
 File: proofs/wireless.png Graphic file (type png)
 <use proofs/wireless.png>
-Package pdftex.def Info: proofs/wireless.png  used on input line 19.
+Package pdftex.def Info: proofs/wireless.png  used on input line 27.
 (pdftex.def)             Requested size: 401.49902pt x 218.56602pt.
 
-Overfull \hbox (56.49902pt too wide) in paragraph at lines 18--20
+Overfull \hbox (56.49902pt too wide) in paragraph at lines 26--28
 [] 
  []
 
-<proofs/image_processing.png, id=115, 1606.0pt x 874.26625pt>
+<proofs/image_processing.png, id=139, 1606.0pt x 874.26625pt>
 File: proofs/image_processing.png Graphic file (type png)
 <use proofs/image_processing.png>
-Package pdftex.def Info: proofs/image_processing.png  used on input line 22.
+Package pdftex.def Info: proofs/image_processing.png  used on input line 30.
 (pdftex.def)             Requested size: 401.49902pt x 218.56602pt.
 
-Overfull \hbox (56.49902pt too wide) in paragraph at lines 21--23
+Overfull \hbox (56.49902pt too wide) in paragraph at lines 29--31
 [] 
  []
 
-[5 <./proofs/wireless_project.png> <./proofs/wireless.png>]
+[8 <./proofs/wireless_project.png> <./proofs/wireless.png>]
 File: proofs/image_processing.png Graphic file (type png)
 <use proofs/image_processing.png>
-Package pdftex.def Info: proofs/image_processing.png  used on input line 25.
+Package pdftex.def Info: proofs/image_processing.png  used on input line 33.
 (pdftex.def)             Requested size: 401.49902pt x 218.56602pt.
 
-Overfull \hbox (56.49902pt too wide) in paragraph at lines 24--26
+Overfull \hbox (56.49902pt too wide) in paragraph at lines 32--34
 [] 
  []
 
-<proofs/wavelets.png, id=121, 1606.0pt x 874.26625pt>
+<proofs/wavelets.png, id=145, 1606.0pt x 874.26625pt>
 File: proofs/wavelets.png Graphic file (type png)
 <use proofs/wavelets.png>
-Package pdftex.def Info: proofs/wavelets.png  used on input line 28.
+Package pdftex.def Info: proofs/wavelets.png  used on input line 36.
 (pdftex.def)             Requested size: 401.49902pt x 218.56602pt.
 
-Overfull \hbox (56.49902pt too wide) in paragraph at lines 27--29
+Overfull \hbox (56.49902pt too wide) in paragraph at lines 35--37
 [] 
  []
 
-[6 <./proofs/image_processing.png>]
-<proofs/spam_url.pdf, id=126, page=1, 844.15375pt x 597.23125pt>
+[9 <./proofs/image_processing.png>]
+<proofs/spam_url.pdf, id=150, page=1, 844.15375pt x 597.23125pt>
 File: proofs/spam_url.pdf Graphic file (type pdf)
 <use proofs/spam_url.pdf, page 1>
-Package pdftex.def Info: proofs/spam_url.pdf , page1 used on input line 30.
+Package pdftex.def Info: proofs/spam_url.pdf , page1 used on input line 38.
 (pdftex.def)             Requested size: 422.07584pt x 298.61488pt.
 
-Overfull \hbox (77.07584pt too wide) in paragraph at lines 30--31
+Overfull \hbox (77.07584pt too wide) in paragraph at lines 38--39
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-[7 <./proofs/wavelets.png>]
-<proofs/sysad_work.pdf, id=132, page=1, 844.15375pt x 597.23125pt>
+[10 <./proofs/wavelets.png>]
+<proofs/sysad_work.pdf, id=155, page=1, 844.15375pt x 597.23125pt>
 File: proofs/sysad_work.pdf Graphic file (type pdf)
 <use proofs/sysad_work.pdf, page 1>
-Package pdftex.def Info: proofs/sysad_work.pdf , page1 used on input line 32.
+Package pdftex.def Info: proofs/sysad_work.pdf , page1 used on input line 40.
 (pdftex.def)             Requested size: 422.07584pt x 298.61488pt.
-<proofs/sysad_work.pdf, id=133, page=2, 844.15375pt x 597.23125pt>
+<proofs/sysad_work.pdf, id=156, page=2, 844.15375pt x 597.23125pt>
 File: proofs/sysad_work.pdf Graphic file (type pdf)
 <use proofs/sysad_work.pdf, page 2>
-Package pdftex.def Info: proofs/sysad_work.pdf , page2 used on input line 33.
+Package pdftex.def Info: proofs/sysad_work.pdf , page2 used on input line 41.
 (pdftex.def)             Requested size: 422.07584pt x 298.61488pt.
 
-Overfull \hbox (77.07584pt too wide) in paragraph at lines 32--34
+Overfull \hbox (77.07584pt too wide) in paragraph at lines 40--42
 [] 
  []
 
 
-Overfull \hbox (77.07584pt too wide) in paragraph at lines 32--34
+Overfull \hbox (77.07584pt too wide) in paragraph at lines 40--42
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--34
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-[8 <./proofs/spam_url.pdf>]
+[11 <./proofs/spam_url.pdf>]
 Overfull \vbox (71.93251pt too high) has occurred while \output is active []
 
 
-[9 <./proofs/sysad_work.pdf> <./proofs/sysad_work.pdf
+[12 <./proofs/sysad_work.pdf> <./proofs/sysad_work.pdf
 
 pdfTeX warning: pdflatex (file ./proofs/sysad_work.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
-<proofs/pgac.pdf, id=201, page=1, 844.15375pt x 597.23125pt>
+<proofs/pgac.pdf, id=224, page=1, 844.15375pt x 597.23125pt>
 File: proofs/pgac.pdf Graphic file (type pdf)
 <use proofs/pgac.pdf, page 1>
-Package pdftex.def Info: proofs/pgac.pdf , page1 used on input line 35.
+Package pdftex.def Info: proofs/pgac.pdf , page1 used on input line 43.
 (pdftex.def)             Requested size: 422.07584pt x 298.61488pt.
 
-Overfull \hbox (77.07584pt too wide) in paragraph at lines 35--36
+Overfull \hbox (77.07584pt too wide) in paragraph at lines 43--44
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-[10 <./proofs/pgac.pdf>]
-<proofs/web_nominee.pdf, id=235, page=1, 614.05411pt x 844.5954pt>
+[13 <./proofs/pgac.pdf>]
+<proofs/web_nominee.pdf, id=259, page=1, 614.05411pt x 844.5954pt>
 File: proofs/web_nominee.pdf Graphic file (type pdf)
 <use proofs/web_nominee.pdf, page 1>
-Package pdftex.def Info: proofs/web_nominee.pdf , page1 used on input line 37.
+Package pdftex.def Info: proofs/web_nominee.pdf , page1 used on input line 45.
 (pdftex.def)             Requested size: 307.02629pt x 422.29666pt.
-<proofs/ML_certificate.pdf, id=236, page=1, 794.97pt x 614.295pt>
+<proofs/ML_certificate.pdf, id=260, page=1, 794.97pt x 614.295pt>
 File: proofs/ML_certificate.pdf Graphic file (type pdf)
 <use proofs/ML_certificate.pdf, page 1>
-Package pdftex.def Info: proofs/ML_certificate.pdf , page1 used on input line 4
-5.
+Package pdftex.def Info: proofs/ML_certificate.pdf , page1 used on input line 5
+3.
 (pdftex.def)             Requested size: 397.48402pt x 307.14674pt.
 
-Overfull \hbox (52.48402pt too wide) in paragraph at lines 45--46
+Overfull \hbox (52.48402pt too wide) in paragraph at lines 53--54
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[11 <./proofs/web_nominee.pdf>]
+[14 <./proofs/web_nominee.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 46.
+(Font)              <12> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 46.
+(Font)              <8> on input line 54.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 46.
-<proofs/bridge_courses.pdf, id=242, page=1, 844.15375pt x 597.23125pt>
+(Font)              <6> on input line 54.
+<proofs/bridge_courses.pdf, id=266, page=1, 844.15375pt x 597.23125pt>
 File: proofs/bridge_courses.pdf Graphic file (type pdf)
 <use proofs/bridge_courses.pdf, page 1>
-Package pdftex.def Info: proofs/bridge_courses.pdf , page1 used on input line 4
-7.
+Package pdftex.def Info: proofs/bridge_courses.pdf , page1 used on input line 5
+5.
 (pdftex.def)             Requested size: 422.07584pt x 298.61488pt.
-<proofs/bridge_courses.pdf, id=243, page=2, 844.15375pt x 597.23125pt>
+<proofs/bridge_courses.pdf, id=267, page=2, 844.15375pt x 597.23125pt>
 File: proofs/bridge_courses.pdf Graphic file (type pdf)
 <use proofs/bridge_courses.pdf, page 2>
-Package pdftex.def Info: proofs/bridge_courses.pdf , page2 used on input line 4
-8.
+Package pdftex.def Info: proofs/bridge_courses.pdf , page2 used on input line 5
+6.
 (pdftex.def)             Requested size: 422.07584pt x 298.61488pt.
-<proofs/bridge_courses.pdf, id=244, page=3, 844.15375pt x 597.23125pt>
+<proofs/bridge_courses.pdf, id=268, page=3, 844.15375pt x 597.23125pt>
 File: proofs/bridge_courses.pdf Graphic file (type pdf)
 <use proofs/bridge_courses.pdf, page 3>
-Package pdftex.def Info: proofs/bridge_courses.pdf , page3 used on input line 4
-9.
+Package pdftex.def Info: proofs/bridge_courses.pdf , page3 used on input line 5
+7.
 (pdftex.def)             Requested size: 422.07584pt x 298.61488pt.
 
-Overfull \hbox (77.07584pt too wide) in paragraph at lines 47--50
+Overfull \hbox (77.07584pt too wide) in paragraph at lines 55--58
 [] 
  []
 
 
-Overfull \hbox (77.07584pt too wide) in paragraph at lines 47--50
+Overfull \hbox (77.07584pt too wide) in paragraph at lines 55--58
 [] 
  []
 
 
-Overfull \hbox (77.07584pt too wide) in paragraph at lines 47--50
+Overfull \hbox (77.07584pt too wide) in paragraph at lines 55--58
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--50
+Underfull \hbox (badness 10000) in paragraph at lines 55--58
 
  []
 
-[12 <./proofs/ML_certificate.pdf, page is rotated 270 degrees>]
+[15 <./proofs/ML_certificate.pdf, page is rotated 270 degrees>]
 Overfull \vbox (68.0214pt too high) has occurred while \output is active []
 
 
-[13 <./proofs/bridge_courses.pdf> <./proofs/bridge_courses.pdf
+[16 <./proofs/bridge_courses.pdf> <./proofs/bridge_courses.pdf
 
 pdfTeX warning: pdflatex (file ./proofs/bridge_courses.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
@@ -439,84 +479,84 @@ tiple pdfs with page group included in a single page
 File: proofs/bridge_courses.pdf Graphic file (type pdf)
 <use proofs/bridge_courses.pdf, page 1>
 Package pdftex.def Info: proofs/bridge_courses.pdf , page1 used on input line 5
-1.
+9.
 (pdftex.def)             Requested size: 422.07584pt x 298.61488pt.
 
-Overfull \hbox (77.07584pt too wide) in paragraph at lines 51--52
+Overfull \hbox (77.07584pt too wide) in paragraph at lines 59--60
 [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-[14 <./proofs/bridge_courses.pdf>]
-<proofs/chinese_2.pdf, id=302, page=1, 614.05411pt x 844.5954pt>
-File: proofs/chinese_2.pdf Graphic file (type pdf)
-<use proofs/chinese_2.pdf, page 1>
-Package pdftex.def Info: proofs/chinese_2.pdf , page1 used on input line 53.
-(pdftex.def)             Requested size: 307.02629pt x 422.29666pt.
- [15] [16 <./proofs/chinese_2.pdf>]
-<proofs/chinese_1.pdf, id=312, page=1, 614.05411pt x 844.5954pt>
-File: proofs/chinese_1.pdf Graphic file (type pdf)
-<use proofs/chinese_1.pdf, page 1>
-Package pdftex.def Info: proofs/chinese_1.pdf , page1 used on input line 55.
-(pdftex.def)             Requested size: 307.02629pt x 422.29666pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-<proofs/french.pdf, id=313, page=1, 614.05411pt x 844.5954pt>
-File: proofs/french.pdf Graphic file (type pdf)
-<use proofs/french.pdf, page 1>
-Package pdftex.def Info: proofs/french.pdf , page1 used on input line 57.
-(pdftex.def)             Requested size: 307.02629pt x 422.29666pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-[17 <./proofs/chinese_1.pdf>]
-<proofs/nss.pdf, id=319, page=2, 614.05411pt x 844.5954pt>
-File: proofs/nss.pdf Graphic file (type pdf)
-<use proofs/nss.pdf, page 2>
-Package pdftex.def Info: proofs/nss.pdf , page2 used on input line 59.
-(pdftex.def)             Requested size: 307.02629pt x 422.29666pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-[18 <./proofs/french.pdf>]
-<proofs/wps.pdf, id=325, page=1, 614.05411pt x 844.5954pt>
-File: proofs/wps.pdf Graphic file (type pdf)
-<use proofs/wps.pdf, page 1>
-Package pdftex.def Info: proofs/wps.pdf , page1 used on input line 61.
+[17 <./proofs/bridge_courses.pdf>]
+<proofs/chinese_2.pdf, id=326, page=1, 614.05411pt x 844.5954pt>
+File: proofs/chinese_2.pdf Graphic file (type pdf)
+<use proofs/chinese_2.pdf, page 1>
+Package pdftex.def Info: proofs/chinese_2.pdf , page1 used on input line 61.
 (pdftex.def)             Requested size: 307.02629pt x 422.29666pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-[19 <./proofs/nss.pdf>]
-<proofs/spoken_eng.pdf, id=332, page=1, 614.05411pt x 844.5954pt>
-File: proofs/spoken_eng.pdf Graphic file (type pdf)
-<use proofs/spoken_eng.pdf, page 1>
-Package pdftex.def Info: proofs/spoken_eng.pdf , page1 used on input line 63.
+ [18] [19 <./proofs/chinese_2.pdf>]
+<proofs/chinese_1.pdf, id=336, page=1, 614.05411pt x 844.5954pt>
+File: proofs/chinese_1.pdf Graphic file (type pdf)
+<use proofs/chinese_1.pdf, page 1>
+Package pdftex.def Info: proofs/chinese_1.pdf , page1 used on input line 63.
 (pdftex.def)             Requested size: 307.02629pt x 422.29666pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-[20 <./proofs/wps.pdf>] [21 <./proofs/spoken_eng.pdf>] (./twopage.aux) ) 
+<proofs/french.pdf, id=337, page=1, 614.05411pt x 844.5954pt>
+File: proofs/french.pdf Graphic file (type pdf)
+<use proofs/french.pdf, page 1>
+Package pdftex.def Info: proofs/french.pdf , page1 used on input line 65.
+(pdftex.def)             Requested size: 307.02629pt x 422.29666pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+[20 <./proofs/chinese_1.pdf>]
+<proofs/nss.pdf, id=343, page=2, 614.05411pt x 844.5954pt>
+File: proofs/nss.pdf Graphic file (type pdf)
+<use proofs/nss.pdf, page 2>
+Package pdftex.def Info: proofs/nss.pdf , page2 used on input line 67.
+(pdftex.def)             Requested size: 307.02629pt x 422.29666pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+[21 <./proofs/french.pdf>]
+<proofs/wps.pdf, id=349, page=1, 614.05411pt x 844.5954pt>
+File: proofs/wps.pdf Graphic file (type pdf)
+<use proofs/wps.pdf, page 1>
+Package pdftex.def Info: proofs/wps.pdf , page1 used on input line 69.
+(pdftex.def)             Requested size: 307.02629pt x 422.29666pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+[22 <./proofs/nss.pdf>]
+<proofs/spoken_eng.pdf, id=355, page=1, 614.05411pt x 844.5954pt>
+File: proofs/spoken_eng.pdf Graphic file (type pdf)
+<use proofs/spoken_eng.pdf, page 1>
+Package pdftex.def Info: proofs/spoken_eng.pdf , page1 used on input line 71.
+(pdftex.def)             Requested size: 307.02629pt x 422.29666pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+[23 <./proofs/wps.pdf>] [24 <./proofs/spoken_eng.pdf>] (./twopage.aux) ) 
 Here is how much of TeX's memory you used:
- 2859 strings out of 492982
- 42624 string characters out of 6134895
+ 2880 strings out of 492982
+ 43195 string characters out of 6134895
  101913 words of memory out of 5000000
- 6377 multiletter control sequences out of 15000+600000
+ 6393 multiletter control sequences out of 15000+600000
  7903 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,39p,274b,119s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -524,10 +564,10 @@ Here is how much of TeX's memory you used:
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on twopage.pdf (21 pages, 7146559 bytes).
+Output written on twopage.pdf (24 pages, 11412504 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
+ 378 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
