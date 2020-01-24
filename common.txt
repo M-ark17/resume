@@ -1,0 +1,143 @@
+MAJOR PROJECT AND SEMINAR
+• M.Tech Project: An efficient channel estimation scheme in MIMO TDD systems (May’19 - Present)
+Guide: Prof. Kumar Appaiah, Electrical Engineering, IIT Bombay
+Objective: To design an efficient channel estimation scheme in Time Division Duplexing (TDD) with the
+help of feedback in MIMO Communication which will reduce the effect of pilot contamination on MIMO channel
+estimation.
+Completed work: Implemented Multi Cell MMSE based MIMO precoding in multiple antenna cellular
+systems which used non-orthogonal pilots for channel estimation.
+◦ Analysed and implemented covariance based channel estimation which uses Bayesian estimation in single
+cell multi antenna system and observed its performance based on rate vs number of antennas.
+◦ Implemented Kalman estimation for multi antenna cellular system.
+◦ Parameterized the feedback for postcoder in massive MIMO TDD systems with multi antenna users.
+◦ Formulated a lower bound on the achievable rate for systems with perfect CSIT and partial CSIR.
+Ongoing work: Working on implementing a basic precoder which utilises the information obtained from Kalman
+estimate in coordinated MIMO systems.
+• M.Tech Seminar: Inter cell interference in Multi Cell MIMO systems
+(Jul’18 - Nov’18 )
+Guide: Prof. Kumar Appaiah, Electrical Engineering, IIT Bombay
+◦ Studied the structure and working of MIMO systems and impact on BER upon using Non-orthogonal pilot
+sequences for channel estimation.
+◦ Simulated BER vs SNR for MIMO systems in Interference and Interference-free scenarios to study the impact
+of pilot contamination on the performance of the system.
+WORK EXPERIENCE
+• Systems Engineer | Infosys Technology Ltd
+(Dec’15 - Jul’17 )
+◦ Tools Used: Oracle Peoplesoft.
+◦ Roles and responsibilities: Part of the team which developed an application which automates billing for the
+customers of the client.
+◦ Wrote code for fetching data into the module and to develop features using Oracle Peoplesoft ERM tool.
+◦ Assisted in designing billing template in XML and in completion of Technical Document Report for the project.
+KEY PROJECTS
+• Interview Management Software [Non-Academic Project]
+(Feb’18 - present)
+Guide: Prof. Bikash Kumar Dey, Prof. Madhu N. Belur, Electrical Engineering, IIT Bombay
+◦ Lead role in building an online system that made automatic coordination across interview committees
+possible through their interface.
+◦ The online system allowed committees to decide in real-time using a cross platform web application about
+interviews.
+◦ Built various other peripheral interfaces to collect data at different times from students and other sources.
+◦ This system was used successfully in the last 3 admission sessions.
+• Scheduling in 4G LTE
+(Jan’18 - Apr’18 )
+Guide: Prof. Abhay Karandikar, Electrical Engineering, IIT Bombay
+◦ Studied different scheduling schemes for resource block allocation to users in LTE systems.
+◦ Implemented channel aware scheduling schemes such as Maximum Throughput, Proportional Fairness,
+Throughput to Average and compared all three scheduling schemes based on metrics such as cell throughput,
+average user throughput and Jain Fairness index.
+• Simulation of Cellular System in Octave
+(Jan’18 - Apr’18 )
+Guide: Prof. Abhay Karandikar, Electrical Engineering, IIT Bombay
+◦ Computed SIR, blocking probability for different cluster sizes and sectoring.
+◦ Analyzed handover process and ping-pong rate for different user mobilities and hysteresis values.
+◦ Analyzed BER performance for space and time diversity in a slow flat fading Rayleigh channel.
+
+◦ Analyzed BER performance for a single-cell and multi-cell scenario in a CDMA cellular system.
+• Image Dehazing
+(Jul’18 - Nov’18 )
+Guide: Prof. Amit Sethi, Electrical Engineering, IIT Bombay
+◦ Implemented Color Attenuation Prior and Dark Channel Prior techniques to estimate the depth map.
+◦ Implemented Guided Filter to reconstruct the Haze-free image using Hazy Image and its depth map.
+• Basic Image Editor tool in Python
+(Jul’18 - Nov’18 )
+Guide: Prof. Amit Sethi, Electrical Engineering, IIT Bombay
+◦ Built a GUI tool using pyQt to implement Histogram equalisation, Gamma correction, Log transformation,
+Horizontal and Vertical edge detection using Sobel operators, blurring and sharpening with a mechanism to
+control the extent of blurring and sharpening respectively.
+◦ Implemented Image Deblurring using Inverse filter, Truncated inverse filter, Weiner filter, Constrained least
+square filter and analysed the performance with help of metrics PSNR and SSIM.
+• Wavelet based leaders and P-leaders in Multi Fractal Analysis
+(Jul’18 - Nov’18 )
+Guide: Prof. Vikram M Gadre, Electrical Engineering, IIT Bombay
+◦ Studied about p-exponents and multi-resolution quantity called p-leaders used to measure negative regularity
+which appear in most real time signal analysis.
+◦ Simulated p-leaders for several signals and was able to prove their convergence with DWT based Wavelet
+leaders as p becomes large.
+• Spam URL classification using Machine Learning
+(Jan’19 - Apr’19 )
+Guide: Prof. Gaurav S kasbekar, Electrical Engineering, IIT Bombay
+◦ Studied 3 among the Top-10 vulnerabilities of OWASP Standard mainly XML external entity attack, SQL
+injection, cross site scripting with practical implementation and proposed solutions.
+◦ Classification of URLs using Machine Learning Techniques like Logistic Regression, Naive Bayes, Support
+Vector Machine, One-vs-Rest.
+◦ An increase of more than 2 percent in accuracy was obtained by replacing logistic regression by One-vs-Rest.
+RELEVANT COURSES
+• DSP and its Applications
+• Statistical Signal Analysis
+• Applied Linear Algebra
+TECHNICAL SKILLS
+Languages
+Tools
+
+:
+:
+
+• Wireless Mobile Communications
+• Wavelets
+• Image Processing
+
+• Optimisation
+• Network Security
+• Information Theory and Coding
+
+C, C++, Python, HTML, PHP, JQuery, Bash scripting.
+MATLAB, LATEX, Git.
+
+POSITIONS OF RESPONSIBILITY
+• System Administrator: Electrical Department, IIT Bombay
+(Jul’17 - Present)
+◦ Building and maintaining the website of EE department, maintaining TA feedback and allotment portals.
+◦ Providing mail service, storage space, computing facilities and network facilities to the department.
+◦ Handled the Department M.Tech and PhD Admission process. Helped in generation of admit cards, coordinating
+the answer sheet corrections.
+• Web Nominee: Post Graduate Academic Council, IIT Bombay
+(Jul’18 - Jun’19 )
+◦ Designed new web portal for PGAC which is used by all the Post Graduate students of the institute.
+• Mess Secretary: Hostel-1, IIT Bombay
+(Sep’17 - Mar’18 )
+◦ Managed all mess related activities for a mess which catered for 250+ students with an approximate budget of
+8,00,000/- per month.
+CO-CURRICULAR ACTIVITIES
+• Completed Machine Learning course by Andrew Ng from Coursera.
+(2019 )
+• Conducted an introductory session on Linux, Vim and Git as a part of Bridge Course which helps in smooth
+transition of new joiners to the institute.
+(2019 )
+• Volunteered for an introductory session on Python which was conducted as a part of Bridge Course.
+(2019 )
+• Completed a 100 hrs course on the Chinese language conducted by IR office, IIT Bombay.
+(2019 )
+• Completed a short term course on Digital System Design organised by C-DAC, Hyderabad.
+(2015 )
+• An active member of National Service Scheme (NSS) for 2 years and attended a camp conducted in a village
+to perform social activities like conducting medical camps, cleaning and painting common facilities like village
+panchayat, temple etc.
+(2013 )
+• Completed basic course in the French language from Vivekananda Institute of Languages, Hyderabad.
+(2012 )
+• Volunteered for 1st World Parliament on Spirituality for a week as part of NSS activity.
+(2012 )
+• Completed Diploma in spoken English from Vivekananda Institute of Languages, Hyderabad.
+(2012 )
+
+
